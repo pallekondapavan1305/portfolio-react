@@ -2,14 +2,42 @@ import todo from "../assets/projects/todolist.jpg";
 import foodMunch from "../assets/projects/foodmunch.jpg";
 import project3 from "../assets/projects/image.png";
 import project4 from "../assets/weather.jpg";
+import HRMS from "../assets/projects/HRMS.jpeg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1.5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = ` A dedicated Software Developer with a strong foundation in building scalable, 
+user-centric applications using Java for backend development and React for 
+dynamic front-end interfaces. Proven experience in developing HR management 
+systems and educational platforms, enhancing both operational workflows and 
+user engagement. Passionate about leveraging full-stack technologies to create 
+impactful solutions that solve real-world problems. Proficient in designing clean, 
+maintainable code and following best practices across the development 
+lifecycle. Continuously learning and adapting to new technologies, with a deep 
+commitment to contributing to innovative and forward-thinking engineering 
+teams.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "Nov 2024 - Present",
+    role: "Software Engineer",
+    company: "Talvox Pvt Ltd",
+    description: `Talvox is a dynamic IT services and consulting company specializing in software 
+development, IT consulting, talent acquisition, HR operations, and digital 
+marketing.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "Next.js",
+      "mongoDB ",
+      "PostgreSQL",
+      "SpringBoot",
+      "Java",
+      "React Native",
+    ],
+  },
+  {
+    year: "Aug 2023 - Aug 2024",
     role: "Wed Development Training",
     company: "Deep Thought",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
@@ -18,6 +46,28 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "HRMS Application",
+    image: HRMS,
+    description:
+      "Developed a comprehensive HRMS platform to streamline HR operations, employee management, payroll processing, and recruitment workflowsEnhanced automation, compliance, and workforce management for businesses by integrating with a robust Java backend and PostgreSQL database",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "PostgreSQL",
+      "Spring Boot",
+      "Java",
+    ],
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  },
   {
     title: "Todos Application",
     image: todo,
@@ -32,13 +82,7 @@ export const PROJECTS = [
       "A fully responsive website that offers a comprehensive list of food items and detailed information about each item./nTechnologies used: HTML, CSS, Bootstrap application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Bootstrap", "javascript"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
+
   {
     title: "Fingerprint Sensor project",
     image: project4,

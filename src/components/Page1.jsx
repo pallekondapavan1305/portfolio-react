@@ -21,7 +21,7 @@ const Page1 = () => {
                         initial="hidden" 
                         animate="visible"
                         variants={container(0)} className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
-                            Pavn Kumar
+                            Pavan Kumar
                         </motion.h1>
                         <motion.span initial="hidden" 
                         animate="visible"
